@@ -1,0 +1,24 @@
+{
+  "name": "jenny-q.github.io",
+  "version": "1.0.0",
+  "description": "Nixon front end technical review",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenny-q/jenny-q.github.io.git"
+  },
+  "author": "Jennifer Quispe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenny-q/jenny-q.github.io/issues"
+  },
+  "homepage": "https://github.com/jenny-q/jenny-q.github.io#readme"
+}
