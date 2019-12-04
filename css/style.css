@@ -1,2 +1,37 @@
-a {
-  text-align: left; }
+h1, h2, h3, h4, h5, p, a, span {
+  font-family: sans-serif; }
+
+#watches {
+  text-align: center;
+  max-width: 1400px;
+  margin: 0 auto; }
+  #watches ul {
+    display: flex;
+    justify-content: center;
+    padding: 0; }
+    #watches ul li {
+      list-style: none;
+      margin: 10px; }
+      #watches ul li .refinement-link {
+        background: #000;
+        color: #fff;
+        padding: 10px;
+        min-width: 100px;
+        display: block;
+        text-decoration: none; }
+
+.watch-list {
+  flex-wrap: wrap; }
+
+.watch .watch__name {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: none;
+  margin: 0;
+  font-size: 16px; }
+
+.watch .watch__price {
+  margin: 5px;
+  text-align: right;
+  font-size: 14px; }
