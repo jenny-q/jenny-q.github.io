@@ -23,6 +23,21 @@ h1, h2, h3, h4, h5, p, a, span {
 .watch-list {
   flex-wrap: wrap; }
 
+.watch .watch__link {
+  text-decoration: none;
+  color: #000;
+  background: none;
+  border: none;
+  padding: 0; }
+  .watch .watch__link .watch__link--color {
+    width: 40px;
+    height: 40px; }
+
+.watch .watch__swatch {
+  justify-content: flex-start !important;
+  width: 300px;
+  overflow: hidden; }
+
 .watch .watch__name {
   font-weight: bold;
   text-transform: uppercase;
@@ -35,3 +50,12 @@ h1, h2, h3, h4, h5, p, a, span {
   margin: 5px;
   text-align: right;
   font-size: 14px; }
+
+.slick-arrow {
+  background: none;
+  border: none;
+  padding: 0; }
+  .slick-arrow.slick-disabled {
+    visibility: hidden; }
+  .slick-arrow .fa {
+    font-size: 20px; }

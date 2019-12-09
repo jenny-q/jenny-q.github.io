@@ -29,6 +29,23 @@ h1, h2, h3, h4, h5, p, a, span {
 }
 
 .watch {
+    .watch__link {
+        text-decoration: none;
+        color: #000;
+        background: none;
+        border: none;
+        padding: 0;
+        .watch__link--color {
+            width: 40px;
+            height: 40px;
+            
+        }
+    }
+    .watch__swatch {
+        justify-content: flex-start !important;
+        width: 300px;
+        overflow: hidden;
+    }
     .watch__name {
         font-weight: bold;
         text-transform: uppercase;
@@ -43,3 +60,15 @@ h1, h2, h3, h4, h5, p, a, span {
         font-size: 14px;
     }
 } 
+
+.slick-arrow {
+    background: none;
+    border: none;
+    padding: 0;
+    &.slick-disabled {
+        visibility: hidden;
+    }
+    .fa {
+        font-size: 20px;
+    }
+}
