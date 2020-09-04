@@ -4,7 +4,7 @@
   "description": "Nixon front end technical review",
   "main": "index.js",
   "dependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   },
   "devDependencies": {},
   "scripts": {
